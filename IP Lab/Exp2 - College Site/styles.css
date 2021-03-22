@@ -1,0 +1,75 @@
+#clgname {
+  background-color: #174273;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Blinker", sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+#aboutus,
+#pohead,
+#contacthead {
+  font-family: "Blinker", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  color: rgb(57, 48, 111);
+}
+
+#aboutpara,
+.progoff {
+  font-family: "Blinker", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  word-spacing: 5px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+#aboutphoto {
+  text-align: center;
+  float: left;
+  padding-right: 25px;
+}
+
+.iconlist {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.icons {
+  padding-right: 30px;
+  color: rgb(57, 48, 111);
+}
+
+a:link {
+  color: darkgreen;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:active {
+  color: black;
+}
+
+.contdet {
+  font-family: "Blinker", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  word-spacing: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.ritlogo {
+  padding-left: 36rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
