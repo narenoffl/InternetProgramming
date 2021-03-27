@@ -1,75 +1,143 @@
-#clgname {
-  background-color: #174273;
-  letter-spacing: 2px;
-  word-spacing: 5px;
+#title {
+  background-color: rgb(4, 85, 144);
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: "Blinker", sans-serif;
-  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+/*Title Image*/
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+/*Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: "white";
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: rgb(4, 85, 144);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* Testimonials*/
+#testimonials {
+  text-align: center;
+  background-color: rgb(4, 85, 144);
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: rgb(4, 85, 144);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
   text-align: center;
 }
 
-#aboutus,
-#pohead,
-#contacthead {
-  font-family: "Blinker", sans-serif;
-  letter-spacing: 2px;
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: rgb(4, 85, 144);
+  color: #fff;
+  padding: 7% 15%;
   text-align: center;
-  font-size: 35px;
-  text-decoration: underline;
-  color: rgb(57, 48, 111);
 }
 
-#aboutpara,
-.progoff {
-  font-family: "Blinker", sans-serif;
-  font-size: 25px;
-  line-height: 45px;
-  word-spacing: 5px;
-  text-align: justify;
-  letter-spacing: 2px;
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-#aboutphoto {
+#footer {
+  padding: 7% 15%;
   text-align: center;
-  float: left;
-  padding-right: 25px;
+}
+.social-icon {
+  margin: 20px 10px;
 }
 
-.iconlist {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.icons {
-  padding-right: 30px;
-  color: rgb(57, 48, 111);
-}
-
-a:link {
-  color: darkgreen;
-}
-
-a:hover {
-  color: crimson;
-}
-
-a:active {
-  color: black;
-}
-
-.contdet {
-  font-family: "Blinker", sans-serif;
-  font-size: 25px;
-  line-height: 45px;
-  word-spacing: 5px;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-.ritlogo {
-  padding-left: 36rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
